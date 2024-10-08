@@ -1,0 +1,3 @@
+28.47%
+599.23 216.46
+ffmpeg -i 1.webm -vf "fps=10" -c:v png -pix_fmt rgba %d.png
